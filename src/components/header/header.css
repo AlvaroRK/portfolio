@@ -7,7 +7,7 @@ header{
     top: 0;
     padding: 1rem;
     width: 100%;
-    background-color: aqua;
+    background-color: #1469D9;
 
     h2{
         a{
@@ -19,7 +19,7 @@ header{
 @media screen and (min-width:1024px) {
     header{
         flex-flow: row nowrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
 
         h2{

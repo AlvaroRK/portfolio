@@ -1,0 +1,60 @@
+.home {
+  background-color: #0d172f;
+  display: flex;
+  justify-content: center;
+
+  .homeContainer {
+    width: 80%;
+    padding: 1rem;
+    margin: 3rem 0;
+
+    .homeInfo {
+      h1 {
+        font-size: 26px;
+        color: #ffff;
+        line-height: 2rem;
+        span {
+          color: #1469d9;
+        }
+      }
+
+      .homeContact {
+        a {
+          svg {
+            width: 24px;
+            margin: 0 0.3rem 1rem 0.3rem;
+            fill: #fff;
+          }
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home {
+    .homeContainer {
+      display: flex;
+      flex-direction: row;
+	  justify-content: space-between;
+	  width: 60%;
+	  margin: 8rem 0;
+
+	  .homeInfo{
+		h1{
+			font-size: 32px;
+			line-height: 2.5rem;
+		}
+	  }
+
+	  img{
+		width: 400px;
+		height: 300px;
+	  }
+    }
+  }
+}
