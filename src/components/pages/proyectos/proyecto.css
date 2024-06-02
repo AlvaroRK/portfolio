@@ -1,0 +1,47 @@
+.proyecto {
+	background-color: #1469d9;
+	margin: 2rem auto;
+	border-radius: 10px;
+	padding: 0.5rem;
+	width: 90%;
+
+	img {
+		width: 100%;
+		border-radius: 10px;
+	}
+
+	.proyectoInfo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		h3 {
+			margin-top: 1rem;
+			font-size: 1.4rem;
+		}
+		.proyectoLeng {
+			margin: 1rem 0;
+			i {
+				margin: 0 0.5rem;
+			}
+		}
+		.proyectoLinks {
+			margin-bottom: 1rem;
+			a {
+				margin: 0 0.5rem;
+			}
+		}
+
+		i {
+			font-size: 1.5rem;
+		}
+	}
+}
+
+@media screen and (min-width:1024px) {
+	.proyecto{
+		width: 35%;
+		margin: 4rem 0;
+	}
+}

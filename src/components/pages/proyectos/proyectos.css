@@ -1,0 +1,27 @@
+.proyectos {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .proyectosContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .proyectos {
+    .proyectosContainer {
+      display: flex;
+      justify-content: space-around;
+	  flex-flow: row wrap;
+      width: 60%;
+    }
+  }
+}

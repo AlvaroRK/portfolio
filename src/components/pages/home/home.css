@@ -4,40 +4,40 @@
   margin-top: 6rem;
 
   .homeContainer {
-    width: 90%;
+	width: 90%;
 
-    .homeInfo {
-      h1 {
-        font-size: 26px;
-        color: #ffff;
-        line-height: 2rem;
-        span {
-          color: #1469d9;
-        }
-      }
+	.homeInfo {
+	  h1 {
+		font-size: 26px;
+		color: #ffff;
+		line-height: 2rem;
+		span {
+		  color: #1469d9;
+		}
+	  }
 
-      .homeContact {
-        a {
-          svg {
-            width: 24px;
-            margin: 0 0.3rem 1rem 0.3rem;
-            fill: #fff;
-          }
-        }
-      }
-    }
+	  .homeContact {
+		a {
+		  svg {
+			width: 24px;
+			margin: 0 0.3rem 1rem 0.3rem;
+			fill: #fff;
+		  }
+		}
+	  }
+	}
 
-    img {
-      width: 100%;
-    }
+	img {
+	  width: 100%;
+	}
   }
 }
 
 @media screen and (min-width: 1024px) {
   .home {
-    .homeContainer {
-      display: flex;
-      flex-direction: row;
+	.homeContainer {
+	  display: flex;
+	  flex-direction: row;
 	  justify-content: space-between;
 	  width: 60%;
 	  margin: 8rem 0;
@@ -53,6 +53,6 @@
 		width: 400px;
 		height: 300px;
 	  }
-    }
+	}
   }
 }
