@@ -1,12 +1,10 @@
 .home {
-  background-color: #0d172f;
   display: flex;
   justify-content: center;
+  margin-top: 6rem;
 
   .homeContainer {
-    width: 80%;
-    padding: 1rem;
-    margin: 3rem 0;
+    width: 90%;
 
     .homeInfo {
       h1 {
