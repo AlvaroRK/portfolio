@@ -5,11 +5,6 @@
   justify-content: center;
   align-items: center;
 
-  h2 {
-    color: white;
-    text-decoration: underline;
-  }
-
   .proyectosContainer {
     width: 80%;
   }
@@ -17,6 +12,9 @@
 
 @media screen and (min-width: 1024px) {
   .proyectos {
+    h2{
+      font-size: 2rem;
+    }
     .proyectosContainer {
       display: flex;
       justify-content: space-around;

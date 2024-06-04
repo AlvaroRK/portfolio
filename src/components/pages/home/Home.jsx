@@ -4,7 +4,7 @@ import CV from "../../buttons/CV";
 
 const Home = () => {
   return (
-    <section className="home">
+    <section className="home" id="home">
       <div className="homeContainer">
         <div className="homeInfo">
           <h1>

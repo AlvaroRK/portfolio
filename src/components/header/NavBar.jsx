@@ -18,16 +18,16 @@ const NavBar = () => {
 			<nav className={`nav ${menuOpen ? "isActive" : ""}`}>
 				<ul>
 					<li>
-						<a href="#">Inicio</a>
+						<a href="#home">Inicio</a>
 					</li>
 					<li>
-						<a href="#">Sobre mí</a>
+						<a href="#sobreMi">Sobre mí</a>
 					</li>
 					<li>
-						<a href="#">Proyectos</a>
+						<a href="#proyectos">Proyectos</a>
 					</li>
 					<li>
-						<a href="#">Contacto</a>
+						<a href="#contacto">Contacto</a>
 					</li>
 				</ul>
 			</nav>

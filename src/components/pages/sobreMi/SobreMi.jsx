@@ -3,7 +3,7 @@ import "./sobreMi.css";
 
 const SobreMi = () => {
   return (
-    <section className="sobreMi">
+    <section className="sobreMi" id="sobreMi">
       <h2>SOBRE MÍ</h2>
       <div className="sobreMiContainer">
         <img src="src\assets\imgNoche.jpeg" alt="img" />
