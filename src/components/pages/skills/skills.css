@@ -1,0 +1,48 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+  color: white;
+
+  h2 {
+    text-decoration: underline;
+  }
+  .skillsContainer {
+    margin-top: 2rem;
+    width: 85%;
+    background-color: #1469d9;
+    border-radius: 5px;
+    padding: 1rem 0;
+
+    .skLenguajes,
+    .skFrameworks,
+    .skHerramientas {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem 0;
+      svg {
+        margin: 0.6rem 1rem;
+        width: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .skills {
+    .skillsContainer {
+      width: 60%;
+
+      .skLenguajes,
+      .skFrameworks,
+      .skHerramientas {
+		margin-bottom: 4%;
+        svg{
+			margin:1.4rem 5rem 0 5rem;
+		}
+      }
+    }
+  }
+}

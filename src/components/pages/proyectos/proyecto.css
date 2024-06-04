@@ -1,13 +1,12 @@
 .proyecto {
 	background-color: #1469d9;
 	margin: 2rem auto;
-	border-radius: 10px;
+	border-radius: 5px;
 	padding: 0.5rem;
-	width: 90%;
 
 	img {
 		width: 100%;
-		border-radius: 10px;
+		border-radius: 5px;
 	}
 
 	.proyectoInfo {
