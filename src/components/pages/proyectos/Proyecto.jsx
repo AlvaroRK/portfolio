@@ -11,8 +11,8 @@ const Proyecto = ({ nombre, lenguajes }) => {
       <div className="proyectoInfo">
         <h3>{nombre}</h3>
         <div className="proyectoLeng">
-          {lenguajes.map((leng) => (
-            <i className={leng}></i>
+          {lenguajes.map((leng, index) => (
+            <i key={index} className={leng}></i>
           ))}
         </div>
         <div className="proyectoLinks">
