@@ -1,0 +1,16 @@
+.btnCert{
+    background-color: #1469d9;
+    padding: 6px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover{
+        background-color: #1257b1;
+    }
+
+    a{
+        color: white;
+    }
+}

@@ -1,0 +1,34 @@
+.listaEstudios {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  list-style: none;
+  margin-bottom: 2rem;
+  .cursoDetalle{
+    width: 60%;
+    h4 {
+      color: #1469d9;
+      font-size: large;
+    }
+    p {
+      font-weight: lighter;
+      margin: 0.3rem 0;
+    }
+    span {
+      font-size: 12px;
+    }
+  }
+
+  .cursoCompletado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .listaEstudios{
+    justify-content: space-evenly;
+  }
+}

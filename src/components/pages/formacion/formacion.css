@@ -1,0 +1,30 @@
+.formacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+
+  .formacionContainer{
+    margin-top: 2rem;
+    color: white;
+    width: 85%;
+
+    ul{
+      h3{
+        margin-bottom: 1rem;
+
+        i{
+          margin-right: .3rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .formacion{
+    .formacionContainer{
+      width: 60%;
+    }
+  }
+}

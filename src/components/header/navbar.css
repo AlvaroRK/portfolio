@@ -1,41 +1,72 @@
 nav {
-  display: none;
+  text-align: center;
   width: 100%;
-  ul {
-    width: 100%;
-    text-align: center;
-    li {
-      list-style: none;
-      margin: 0.3rem auto;
-      a {
-        display: block;
-        padding: 1.5rem 12px;
-        border-radius: 25px;
-        background-color: bisque;
-        text-decoration: none;
-      }
-    }
-  }
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 0vh;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  pointer-events: none;
 
   &.isActive {
-    /* @include flex(column, nowrap, center, center); */
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+    pointer-events: auto;
+    height: 44vh;
+    opacity: 1;
+    overflow: visible;
+  }
+
+  ul {
+    width: 100%;
+    li {
+      list-style: none;
+      margin: 1rem auto 0 auto;
+      a {
+        color: white;
+        display: block;
+        padding: 1.8rem 0;
+        border-radius: 10px;
+        background-color: #1469d9;
+        text-decoration: none;
+        transition: all 0.1s;
+        transition-delay: 0.1s;
+
+        &:hover {
+          transform: scale(1.01);
+        }
+      }
+    }
   }
 }
 
 .bars {
   background: none;
+  fill: white;
   border: none;
   width: 1.5rem;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1024px) {
   .nav {
+    pointer-events: auto;
     display: flex;
     width: auto;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: initial;
+    opacity: 1;
+    transition: none;
+
+    &.isActive {
+      height: auto;
+      opacity: 1;
+      overflow: visible;
+    }
     ul {
       width: auto;
       display: flex;
@@ -45,9 +76,14 @@ nav {
       li {
         margin: 0 1rem;
         a {
-          display: inline;
-          padding: 10px 10px;
+          padding: 10px;
           font-size: 1rem;
+          cursor: pointer;
+
+          &:hover {
+            transform: scale(1.1);
+            transition: all 0.1s;
+          }
         }
       }
     }

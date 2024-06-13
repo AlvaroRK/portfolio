@@ -5,10 +5,10 @@ import "./proyectos.css";
 const Proyectos = () => {
 	return (
 		<section className="proyectos" id="proyectos">
-			<h2>PROYECTOS</h2>
+			<h2><i className="fa-solid fa-code"></i> PROYECTOS</h2>
 			<div className="proyectosContainer">
 				<Proyecto
-					nombre={"proyecto 1"}
+					nombre={"Medano Final"}
 					lenguajes={[
 						"fa-brands fa-html5",
 						"fa-brands fa-css3-alt",
@@ -16,7 +16,7 @@ const Proyectos = () => {
 					]}
 				/>
 				<Proyecto
-					nombre={"proyecto 2"}
+					nombre={"CelularXpress"}
 					lenguajes={[
 						"fa-brands fa-html5",
 						"fa-brands fa-css3-alt",
@@ -25,7 +25,7 @@ const Proyectos = () => {
 					]}
 				/>
 				<Proyecto
-					nombre={"proyecto 4"}
+					nombre={"ArgenShop"}
 					lenguajes={[
 						"fa-brands fa-html5",
 						"fa-brands fa-css3-alt",
@@ -33,7 +33,7 @@ const Proyectos = () => {
 					]}
 				/>
 				<Proyecto
-					nombre={"proyecto 5"}
+					nombre={"Blog de noticias"}
 					lenguajes={[
 						"fa-brands fa-js",
 					]}

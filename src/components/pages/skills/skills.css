@@ -3,14 +3,10 @@
   flex-direction: column;
   align-items: center;
   margin-top: 6rem;
-
+  
   .skillsContainer {
-    margin-top: 2rem;
-    width: 85%;
-    background-color: #1469d9;
-    border-radius: 5px;
-    padding: 1rem 0;
-
+    margin-top: 2em;
+    width:max-content;
     .skLenguajes,
     .skFrameworks,
     .skHerramientas {
@@ -18,11 +14,17 @@
       flex-direction: column;
       align-items: center;
       color: white;
-      margin: 1rem 0;
+      padding: 1rem 0;
       svg {
-        margin: 0.6rem 1rem;
+        margin: 1rem 1.2rem 0 1.2rem;
         width: 50px;
       }
+    }
+
+    .skLenguajes,
+    .skHerramientas{
+      border-top: 2px solid #1469d9;
+      border-bottom: 2px solid #1469d9;
     }
   }
 }
@@ -33,12 +35,11 @@
       font-size: 2rem;
     }
     .skillsContainer {
-      width: 60%;
+      width: max-content;
 
       .skLenguajes,
       .skFrameworks,
       .skHerramientas {
-		margin-bottom: 4%;
         svg{
 			margin:1.4rem 5rem 0 5rem;
 		}

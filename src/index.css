@@ -16,11 +16,20 @@ body{
 
 h2{
   color: white;
-  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  i{
+    margin-right: .5rem;
+    font-size: 26px;
+  }
 }
 
 @media screen and (min-width:1024px) {
   body{
-    font-size: 18px;
+    h2{
+      font-size: 2rem;
+    }
   }
 }

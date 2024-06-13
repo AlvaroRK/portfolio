@@ -6,4 +6,9 @@
   border: none;
   padding: 0.5rem 1rem;
   background-color: #1469d9;
+  transition: all.2s;
+
+  &:hover{
+    transform: scale(1.1);
+  }
 }

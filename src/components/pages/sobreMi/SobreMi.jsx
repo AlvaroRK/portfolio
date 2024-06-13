@@ -4,7 +4,7 @@ import "./sobreMi.css";
 const SobreMi = () => {
   return (
     <section className="sobreMi" id="sobreMi">
-      <h2>SOBRE MÍ</h2>
+      <h2><i className="fa-regular fa-user"></i> SOBRE MÍ</h2>
       <div className="sobreMiContainer">
         <img src="src\assets\imgNoche.jpeg" alt="img" />
         <p>

@@ -4,7 +4,7 @@ import "./skills.css";
 const Skills = () => {
   return (
 	<section className="skills">
-	  <h2>SKILLS</h2>
+	  <h2><i className="fa-solid fa-brain"></i> SKILLS</h2>
 	  <div className="skillsContainer">
 		<div className="skLenguajes">
 		  <h3>Lenguajes</h3>
