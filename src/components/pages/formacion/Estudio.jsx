@@ -2,9 +2,18 @@ import React from "react";
 import "./estudio.css";
 import BtnCertificado from "../../buttons/BtnCertificado";
 
-const Estudio = ({ curso, lugar, fecha, completado }) => {
+const Estudio = ({
+  curso,
+  lugar,
+  fecha,
+  completado,
+  onSelect,
+  fileUrl,
+  fileName,
+}) => {
+
   return (
-    <li className="listaEstudios">
+    <li onClick={onSelect} className="listaEstudios">
       <div className="cursoDetalle">
         <h4>{curso}</h4>
         <p>{lugar}</p>
@@ -12,7 +21,11 @@ const Estudio = ({ curso, lugar, fecha, completado }) => {
       </div>
       <div className="cursoCompletado">
         <p>{completado ? "Completado" : "En progreso"}</p>
-		<BtnCertificado/>
+        {completado ? (
+          <BtnCertificado fileUrl={fileUrl} fileName={fileName} />
+        ) : (
+          ""
+        )}
       </div>
     </li>
   );

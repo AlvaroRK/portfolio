@@ -4,20 +4,24 @@ import "./sobreMi.css";
 const SobreMi = () => {
   return (
     <section className="sobreMi" id="sobreMi">
-      <h2><i className="fa-regular fa-user"></i> SOBRE MÍ</h2>
+      <h2>
+        <i className="fa-regular fa-user"></i> SOBRE MÍ
+      </h2>
       <div className="sobreMiContainer">
-        <img src="src\assets\imgNoche.jpeg" alt="img" />
+        <div className="imgContainerSM"></div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-          laudantium corrupti praesentium, sed enim alias voluptatibus sapiente
-          molestias ut. Nam cupiditate repudiandae omnis incidunt vero
-          accusantium debitis provident facere aspernatur in. Veniam, voluptatum
-          eius. Enim fugit ratione iste dicta fuga.Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Illo laudantium corrupti praesentium,
-          sed enim alias voluptatibus sapiente molestias ut. Nam cupiditate
-          repudiandae omnis incidunt vero accusantium debitis provident facere
-          aspernatur in. Veniam, voluptatum eius. Enim fugit ratione iste dicta
-          fuga.
+          ¡Hola! Soy Álvaro, un apasionado desarrollador frontend con una
+          sólida experiencia en la creación de interfaces web atractivas y
+          funcionales. Desde que comencé mi viaje en el desarrollo web, me he
+          dedicado a aprender y dominar tecnologías clave como HTML, CSS,
+          JavaScript y frameworks modernos como React. Mi objetivo es
+          transformar ideas creativas en experiencias de usuario intuitivas y
+          eficientes. Con un ojo agudo para el diseño y un enfoque meticuloso en
+          la funcionalidad, me esfuerzo por entregar productos que no solo sean
+          visualmente impresionantes sino también altamente accesibles y
+          responsivos. Me encanta colaborar en proyectos desafiantes y siempre
+          estoy buscando oportunidades para innovar y mejorar mis habilidades. <br />
+          ¡Vamos a construir algo increíble juntos!
         </p>
       </div>
     </section>

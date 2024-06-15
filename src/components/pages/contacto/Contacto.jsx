@@ -12,6 +12,7 @@ const Contacto = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    const btnEnviar = document.getElementById("btnClasic")
 
     emailjs
       .sendForm(emailService, emailTemplate, form.current, {
@@ -19,10 +20,15 @@ const Contacto = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          console.log("ENVIADO");
+          btnEnviar.innerHTML="Enviado"
+          btnEnviar.style.backgroundColor="green"
+          console.log(btnEnviar);
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          console.log("ERROR", error.text);
+          btnEnviar.innerHTML="Error"
+          btnEnviar.style.backgroundColor="red"
         }
       );
   };
@@ -43,14 +49,21 @@ const Contacto = () => {
               <i className="fa-solid fa-phone"></i>+54 11 3057-8856
             </li>
             <li>
-              <i className="fa-solid fa-envelope"></i>alvaroo.rk06@gmail.com
+              <i className="fa-solid fa-envelope"></i>
+              <a
+                target="_blank"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=alvaroo.rk06@gmail.com"
+              >
+                alvaroo.rk06@gmail.com <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
             </li>
           </ul>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input id="nombre" name="nombre" type="text" placeholder="Nombre:" />
-          <input id="email" name="email" type="email" placeholder="Email:" />
+          <input required id="nombre" name="nombre" type="text" placeholder="Nombre:" />
+          <input required id="email" name="email" type="email" placeholder="Email:" />
           <textarea
+          required
             id="mensaje"
             name="mensaje"
             placeholder="Mensaje:"

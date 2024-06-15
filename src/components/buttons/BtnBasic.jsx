@@ -3,7 +3,7 @@ import "./btnBasic.css"
 
 const BtnBasic = ({texto}) => {
   return (
-    <button className='btnBasic'>{texto}</button>
+    <button id='btnClasic' className='btnBasic'>{texto}</button>
   )
 }
 

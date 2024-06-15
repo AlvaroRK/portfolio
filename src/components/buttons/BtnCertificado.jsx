@@ -1,12 +1,12 @@
-import React from 'react'
-import "./btnCertificado.css"
+import React from "react";
+import "./btnCertificado.css";
 
-const BtnCertificado = () => {
+const BtnCertificado = ({ fileUrl, fileName }) => {
   return (
-    <button className='btnCert'>
-        <a download={""} >Certificado</a>
-    </button>
-  )
-}
+    <a className="btnCert" href={fileUrl} download={fileName}>
+      <button>Certificado</button>
+    </a>
+  );
+};
 
-export default BtnCertificado
+export default BtnCertificado;

@@ -12,7 +12,6 @@ const Proyectos = () => {
 					lenguajes={[
 						"fa-brands fa-html5",
 						"fa-brands fa-css3-alt",
-						"fa-brands fa-js",
 					]}
 				/>
 				<Proyecto
@@ -29,13 +28,15 @@ const Proyectos = () => {
 					lenguajes={[
 						"fa-brands fa-html5",
 						"fa-brands fa-css3-alt",
-						"fa-brands fa-python",
+						"fa-brands fa-js",
 					]}
 				/>
 				<Proyecto
 					nombre={"Blog de noticias"}
 					lenguajes={[
-						"fa-brands fa-js",
+						"fa-brands fa-html5",
+						"fa-brands fa-css3-alt",
+						"fa-brands fa-python",
 					]}
 				/>
 			</div>

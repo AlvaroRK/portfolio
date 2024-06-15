@@ -20,7 +20,17 @@
 			li{
 				margin-top: 1rem;
 				list-style: none;
+        a{
+          color: white;
+          text-decoration: none;
 
+          &:hover{
+            text-decoration: underline;
+          }
+          i{
+            font-size: 10px;
+          }
+        }
 				i{
 					margin-right: 1rem;
 				}

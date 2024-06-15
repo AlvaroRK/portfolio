@@ -13,7 +13,7 @@ nav {
 
   &.isActive {
     pointer-events: auto;
-    height: 44vh;
+    height: 50vh;
     opacity: 1;
     overflow: visible;
   }

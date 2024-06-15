@@ -10,7 +10,10 @@
         background-color: #1257b1;
     }
 
-    a{
+    button{
+        cursor: pointer;
+        background: none;
+        border: none;
         color: white;
     }
 }
