@@ -11,11 +11,12 @@
       font-size: large;
     }
     p {
-      font-weight: lighter;
+      font-size: 14px;
       margin: 0.3rem 0;
     }
     span {
-      font-size: 12px;
+      font-weight: lighter;
+      font-size: 14px;
     }
   }
 

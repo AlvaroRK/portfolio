@@ -12,7 +12,7 @@ const Contacto = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    const btnEnviar = document.getElementById("btnClasic")
+    const btnEnviar = document.getElementById("btnClasic");
 
     emailjs
       .sendForm(emailService, emailTemplate, form.current, {
@@ -21,14 +21,14 @@ const Contacto = () => {
       .then(
         () => {
           console.log("ENVIADO");
-          btnEnviar.innerHTML="Enviado"
-          btnEnviar.style.backgroundColor="green"
+          btnEnviar.innerHTML = "Enviado";
+          btnEnviar.style.backgroundColor = "green";
           console.log(btnEnviar);
         },
         (error) => {
           console.log("ERROR", error.text);
-          btnEnviar.innerHTML="Error"
-          btnEnviar.style.backgroundColor="red"
+          btnEnviar.innerHTML = "Error";
+          btnEnviar.style.backgroundColor = "red";
         }
       );
   };
@@ -41,8 +41,8 @@ const Contacto = () => {
       <div className="contactoContainer">
         <div className="manual">
           <p>
-            Si tenes alguna duda y/o queres que forme parte de tu equipo, podes
-            rellenar el formulario o contactarme a traves de estos medios:
+            Si tenés alguna duda y/o querés que forme parte de tu equipo, podés
+            rellenar el formulario o contactarme a través de estos medios:
           </p>
           <ul>
             <li>
@@ -54,16 +54,29 @@ const Contacto = () => {
                 target="_blank"
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=alvaroo.rk06@gmail.com"
               >
-                alvaroo.rk06@gmail.com <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                alvaroo.rk06@gmail.com{" "}
+                <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </li>
           </ul>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input required id="nombre" name="nombre" type="text" placeholder="Nombre:" />
-          <input required id="email" name="email" type="email" placeholder="Email:" />
+          <input
+            required
+            id="nombre"
+            name="nombre"
+            type="text"
+            placeholder="Nombre:"
+          />
+          <input
+            required
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Email:"
+          />
           <textarea
-          required
+            required
             id="mensaje"
             name="mensaje"
             placeholder="Mensaje:"

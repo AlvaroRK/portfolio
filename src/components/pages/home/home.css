@@ -18,10 +18,10 @@
 
 	  .homeContact {
 		a {
-		  svg {
-			width: 24px;
+		  i {
+			font-size: 24px;
 			margin: 0 0.3rem 1rem 0.3rem;
-			fill: #fff;
+			color: #fff;
 		  }
 		}
 	  }
@@ -29,9 +29,9 @@
 
 	.imgContainer{
 		margin: auto;
-		width: 350px;
+		width: 95%;
 		height: 300px;
-		background-image: url("src/assets/fotoPerfil.jpeg");
+		background-image: url("/images/fotoPerfil.jpeg");
 		background-size: cover;
 	}
   }
@@ -43,6 +43,7 @@
 	  display: flex;
 	  flex-direction: row;
 	  justify-content: space-between;
+	  align-items: center;
 	  width: 60%;
 	  margin: 8rem 0;
 
@@ -55,6 +56,7 @@
 
 	  .imgContainer{
 		margin: 0;
+		width: 350px;
 	  }
 	}
   }

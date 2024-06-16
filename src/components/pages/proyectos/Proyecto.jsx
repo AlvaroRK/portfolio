@@ -7,7 +7,7 @@ const Proyecto = ({ nombre, lenguajes }) => {
   }
   return (
     <div className="proyecto">
-      <img src="src\assets\imgNoche.jpeg" alt="" />
+      <img src="/images/imgNoche.jpeg" alt="imgPr" />
       <div className="proyectoInfo">
         <h3>{nombre}</h3>
         <div className="proyectoLeng">

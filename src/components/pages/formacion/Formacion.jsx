@@ -6,9 +6,8 @@ const Formacion = () => {
   const fechas = ["2022", "2022", "2022", "2023"];
 
   const fileUrls = nombres.map(
-    (nombre) => `src/assets/Certificado ${nombre}.png`
+    (nombre) => `images/Certificado ${nombre}.png`
   );
-
   return (
     <section className="formacion">
       <h2>
