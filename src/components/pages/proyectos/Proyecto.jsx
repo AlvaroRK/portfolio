@@ -1,13 +1,13 @@
 import React from "react";
 import "./proyecto.css";
 /* AGREGAR LOS LINKS A GITHUB Y A LA PAGINA EN SI */
-const Proyecto = ({ nombre, lenguajes }) => {
+const Proyecto = ({ nombre, lenguajes, image }) => {
   if (!lenguajes || !Array.isArray(lenguajes)) {
     return console.log("no hay array");
   }
   return (
     <div className="proyecto">
-      <img src="/images/imgNoche.jpeg" alt="imgPr" />
+      <img src= {image} alt="imgPr" />
       <div className="proyectoInfo">
         <h3>{nombre}</h3>
         <div className="proyectoLeng">
