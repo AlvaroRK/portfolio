@@ -10,7 +10,7 @@ const SobreMi = () => {
       <div className="sobreMiContainer">
         <div className="imgContainerSM"></div>
         <p>
-          ¡Hola! Soy Álvaro, un apasionado desarrollador frontend con una
+          ¡Hola! Soy Álvaro Ruiz Kuchill, un apasionado desarrollador frontend con una
           sólida experiencia en la creación de interfaces web atractivas y
           funcionales. Desde que comencé mi viaje en el desarrollo web, me he
           dedicado a aprender y dominar tecnologías clave como HTML, CSS,

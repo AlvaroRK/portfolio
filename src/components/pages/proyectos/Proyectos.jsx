@@ -14,6 +14,8 @@ const Proyectos = () => {
 						nombre={proyecto.nombre}
 						lenguajes={proyecto.lenguajes}
 						image={proyecto.image}
+						github={proyecto.github}
+						pagina={proyecto.pagina}
 					/>
 				)}
 			</div>
