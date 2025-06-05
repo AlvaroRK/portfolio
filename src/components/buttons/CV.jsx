@@ -3,7 +3,7 @@ import "./cv.css"
 
 const CV = () => {
   return (
-    <a download={"#"}>
+    <a href="\cv\Alvaro-Ruiz-Kuchill-CV.pdf" download={"Alvaro-Ruiz-Kuchill-CV.pdf"}>
       <button className='cvBtn'>Descargar CV</button>
     </a>
   )

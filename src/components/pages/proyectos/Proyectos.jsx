@@ -16,6 +16,7 @@ const Proyectos = () => {
 						image={proyecto.image}
 						github={proyecto.github}
 						pagina={proyecto.pagina}
+						descripcion={proyecto.descripcion}
 					/>
 				)}
 			</div>

@@ -16,7 +16,7 @@ const Home = () => {
           <div className="homeContact">
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/alvaro-ruiz-kuschill-b50a50243/"
+              href="https://www.linkedin.com/in/alvaro-ruiz-kuschill/"
             >
               <i class="fa-brands fa-linkedin-in"></i>
             </a>

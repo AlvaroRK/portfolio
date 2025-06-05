@@ -40,6 +40,12 @@ const Formacion = () => {
             fecha={"2024"}
             completado={false}
           />
+          <Estudio
+            curso={"Tecnicatura en informática"}
+            lugar={"UNGS"}
+            fecha={"2024"}
+            completado={false}
+            />
         </ul>
       </div>
     </section>

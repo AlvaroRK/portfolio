@@ -22,8 +22,12 @@
 		align-items: center;
 
 		h3 {
-			margin-top: 1rem;
+			margin: .5rem 0;
 			font-size: 1.4rem;
+		}
+
+		p {
+			text-align: center;
 		}
 		.proyectoLeng {
 			margin: 1rem 0;
@@ -32,8 +36,8 @@
 			}
 		}
 		.proyectoLinks {
-			margin-bottom: 1rem;
 			a {
+				color: white;
 				margin: 0 0.5rem;
 			}
 		}

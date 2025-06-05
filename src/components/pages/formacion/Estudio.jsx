@@ -20,7 +20,7 @@ const Estudio = ({
         <span>{fecha}</span>
       </div>
       <div className="cursoCompletado">
-        <p>{completado ? "Completado" : "En progreso..."}</p>
+        <p>{completado ? "Completado" : "En proceso..."}</p>
         {completado ? (
           <BtnCertificado fileUrl={fileUrl} fileName={fileName} />
         ) : (

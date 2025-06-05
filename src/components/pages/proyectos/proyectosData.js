@@ -6,7 +6,8 @@ const proyectosData = [
 		],
 		image:"/images/ProyectoJuegoJava.png", /* EN PRODUCCION "/images/proyectoToDo.png" */
 		github: "https://github.com/AlvaroRK/JUEGO-P1.git",
-		pagina: ""
+		pagina: "",
+		descripcion: "Juego en Java donde controlás a un mago que debe sobrevivir a murciélagos usando habilidades mágicas hasta eliminar cierta cantidad de enemigos y ganar."
 	},
 	{
 		nombre: "EntreLineas",
@@ -18,7 +19,8 @@ const proyectosData = [
 		],
 		image:"/images/ProyectoEntreLineas.png", /* EN PRODUCCION "/images/proyectoToDo.png" */
 		github: "https://github.com/AlvaroRK/entreLineas.git",
-		pagina: "https://entre-lineas.vercel.app/"
+		pagina: "https://entre-lineas.vercel.app/",
+		descripcion: "App web donde podés explorar libros y agregarlos al carrito. Permite gestionar compras de forma simple, con diseño responsivo y navegación fluida."
 	}
 ]
 export default proyectosData;
